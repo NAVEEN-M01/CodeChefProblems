@@ -13,10 +13,7 @@ int main(void) {
 	for(i=0;i<t;i++)
 	{
 	  scanf("%d",&x);
-	  if(x>=2000)
-	    printf("YES\n");
-	   else
-	    printf("NO\n");
+	  if(x>=2000)?printf("YES\n"):printf("NO\n");
 	}
 	return 0;
 }
