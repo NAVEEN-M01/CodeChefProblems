@@ -15,10 +15,7 @@ int main(void)
     for(i=0;i<t;i++)
     {
 	    scanf("%d%d",&x,&y);
-        if(x+y>6)
-            printf("YES\n");
-        else
-            printf("NO\n");
+            (x+y>6)?printf("YES\n"):printf("NO\n");
 	}
 	return 0;
 }
