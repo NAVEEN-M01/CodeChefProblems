@@ -7,7 +7,10 @@ int main(void) {
 	for(i=0;i<t;i++)
 	{
 	    scanf("%d%d%d",&x,&y,&a);
-	    if((x<=a)&&(y>a))?printf("YES\n"):printf("NO\n");
+	    if((x<=a)&&(y>a))
+	        printf("YES\n");
+	    else
+	         printf("NO\n");
 	}
 	return 0;
 }
