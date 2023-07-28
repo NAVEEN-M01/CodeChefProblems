@@ -12,10 +12,10 @@ int main(void)
 {
 	int t,i,x,y;
 	scanf("%d",&t);
-    for(i=0;i<t;i++)
-    {
-	    scanf("%d%d",&x,&y);
-            (x+y>6)?printf("YES\n"):printf("NO\n");
-	}
+	for(i=0;i<t;i++)
+	    {
+	   	scanf("%d%d",&x,&y);
+            	(x+y>6)?printf("YES\n"):printf("NO\n");
+	    }
 	return 0;
 }
