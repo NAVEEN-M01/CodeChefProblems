@@ -8,11 +8,13 @@ The drive has collected X donations so far. Find the remaining number of donatio
 int main()
 {
     int t,i,n,x;
-    scanf("%d", &t);
+    //no of testcases
+    scanf("%d", &t); 
+    
     for(i=0;i<t;i++)
     {
         scanf("%d", &n);
-        scanf("%d", &x);
+        scanf("%d", &x);   
         printf("%d\n",n-x);
     
     }
